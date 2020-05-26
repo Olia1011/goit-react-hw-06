@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-06-phonebook/static/css/main.3503c64e.chunk.css",
-    "main.js": "/goit-react-hw-06-phonebook/static/js/main.3f33e1b0.chunk.js",
-    "main.js.map": "/goit-react-hw-06-phonebook/static/js/main.3f33e1b0.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-06-phonebook/static/js/runtime-main.08581b24.js",
-    "runtime-main.js.map": "/goit-react-hw-06-phonebook/static/js/runtime-main.08581b24.js.map",
-    "static/js/2.f96c2e78.chunk.js": "/goit-react-hw-06-phonebook/static/js/2.f96c2e78.chunk.js",
-    "static/js/2.f96c2e78.chunk.js.map": "/goit-react-hw-06-phonebook/static/js/2.f96c2e78.chunk.js.map",
-    "index.html": "/goit-react-hw-06-phonebook/index.html",
-    "precache-manifest.c0a20499a3c4b8bfc7d2fc2943365b6e.js": "/goit-react-hw-06-phonebook/precache-manifest.c0a20499a3c4b8bfc7d2fc2943365b6e.js",
-    "service-worker.js": "/goit-react-hw-06-phonebook/service-worker.js",
-    "static/css/main.3503c64e.chunk.css.map": "/goit-react-hw-06-phonebook/static/css/main.3503c64e.chunk.css.map",
-    "static/js/2.f96c2e78.chunk.js.LICENSE.txt": "/goit-react-hw-06-phonebook/static/js/2.f96c2e78.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/goit-react-hw-06-phonebook/static/media/dancing-script-v14-latin-regular.5c1198f3.woff2"
+    "main.css": "/goit-react-hw-06/static/css/main.97e8d076.chunk.css",
+    "main.js": "/goit-react-hw-06/static/js/main.7ae70cb9.chunk.js",
+    "main.js.map": "/goit-react-hw-06/static/js/main.7ae70cb9.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-06/static/js/runtime-main.7a43547d.js",
+    "runtime-main.js.map": "/goit-react-hw-06/static/js/runtime-main.7a43547d.js.map",
+    "static/js/2.afc78f0b.chunk.js": "/goit-react-hw-06/static/js/2.afc78f0b.chunk.js",
+    "static/js/2.afc78f0b.chunk.js.map": "/goit-react-hw-06/static/js/2.afc78f0b.chunk.js.map",
+    "index.html": "/goit-react-hw-06/index.html",
+    "precache-manifest.4813c2051a9dc3122be24bbf9ac3e2e1.js": "/goit-react-hw-06/precache-manifest.4813c2051a9dc3122be24bbf9ac3e2e1.js",
+    "service-worker.js": "/goit-react-hw-06/service-worker.js",
+    "static/css/main.97e8d076.chunk.css.map": "/goit-react-hw-06/static/css/main.97e8d076.chunk.css.map",
+    "static/js/2.afc78f0b.chunk.js.LICENSE.txt": "/goit-react-hw-06/static/js/2.afc78f0b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/goit-react-hw-06/static/media/dancing-script-v14-latin-regular.5c1198f3.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.08581b24.js",
-    "static/js/2.f96c2e78.chunk.js",
-    "static/css/main.3503c64e.chunk.css",
-    "static/js/main.3f33e1b0.chunk.js"
+    "static/js/runtime-main.7a43547d.js",
+    "static/js/2.afc78f0b.chunk.js",
+    "static/css/main.97e8d076.chunk.css",
+    "static/js/main.7ae70cb9.chunk.js"
   ]
 }
