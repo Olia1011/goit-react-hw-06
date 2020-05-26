@@ -23,16 +23,21 @@ class ContactForm extends Component{
       
     };
 
-   submitHandler = (e) => {
-       e.preventDefault();
-     (this.state.name !== '' && this.state.number !== '' )?(       
-       this.props.onAddContact({...this.state})
-     ): this.error();
-     this.setState({
-        name:'',
-         number:''
-      })
-   };
+    submitHandler = e => {
+        e.preventDefault();
+        // const { name, number } = this.state;
+        this.state.name !== '' && this.state.number !== ''
+          ? this.props.onAddContact({ ...this.state })
+          : this.error();
+        this.reset();
+      };
+    
+      reset = () => {
+        this.setState({
+          name: '',
+          number: '',
+        });
+      };
 
     error = ()=> {
          this.setState (prevState=>({isShow:!prevState.isShow}))
