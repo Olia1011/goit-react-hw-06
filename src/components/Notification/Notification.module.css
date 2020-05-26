@@ -19,7 +19,8 @@
 }
 
 .message {
-    width: 200px;
+	width: 300px;
+	height: auto;
     text-align: center;
     color: white;
     position: absolute;
