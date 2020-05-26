@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-06/static/css/main.e80c28f1.chunk.css",
-    "main.js": "/goit-react-hw-06/static/js/main.cdb0703d.chunk.js",
-    "main.js.map": "/goit-react-hw-06/static/js/main.cdb0703d.chunk.js.map",
+    "main.css": "/goit-react-hw-06/static/css/main.8d2d9fe9.chunk.css",
+    "main.js": "/goit-react-hw-06/static/js/main.afd6d4b3.chunk.js",
+    "main.js.map": "/goit-react-hw-06/static/js/main.afd6d4b3.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-06/static/js/runtime-main.7a43547d.js",
     "runtime-main.js.map": "/goit-react-hw-06/static/js/runtime-main.7a43547d.js.map",
     "static/js/2.1a440f0f.chunk.js": "/goit-react-hw-06/static/js/2.1a440f0f.chunk.js",
     "static/js/2.1a440f0f.chunk.js.map": "/goit-react-hw-06/static/js/2.1a440f0f.chunk.js.map",
     "index.html": "/goit-react-hw-06/index.html",
-    "precache-manifest.f0a668c0d61d9e2e12a672e680f57c41.js": "/goit-react-hw-06/precache-manifest.f0a668c0d61d9e2e12a672e680f57c41.js",
+    "precache-manifest.32d5588e2b1bb4ecc375db991cf979e9.js": "/goit-react-hw-06/precache-manifest.32d5588e2b1bb4ecc375db991cf979e9.js",
     "service-worker.js": "/goit-react-hw-06/service-worker.js",
-    "static/css/main.e80c28f1.chunk.css.map": "/goit-react-hw-06/static/css/main.e80c28f1.chunk.css.map",
+    "static/css/main.8d2d9fe9.chunk.css.map": "/goit-react-hw-06/static/css/main.8d2d9fe9.chunk.css.map",
     "static/js/2.1a440f0f.chunk.js.LICENSE.txt": "/goit-react-hw-06/static/js/2.1a440f0f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/goit-react-hw-06/static/media/dancing-script-v14-latin-regular.5c1198f3.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.7a43547d.js",
     "static/js/2.1a440f0f.chunk.js",
-    "static/css/main.e80c28f1.chunk.css",
-    "static/js/main.cdb0703d.chunk.js"
+    "static/css/main.8d2d9fe9.chunk.css",
+    "static/js/main.afd6d4b3.chunk.js"
   ]
 }
