@@ -15,7 +15,14 @@ class ContactForm extends Component {
     name: '',
     number: '',
     isShow: false,
+    isOpen: false,
+    displayName: '',
   };
+
+
+  // getName = () => {
+  //   return this.state.name
+  // }
 
   changeHandler = (e) => {
     this.setState({ [e.target.name]: e.target.value });
@@ -24,14 +31,18 @@ class ContactForm extends Component {
 
   submitHandler = (e) => {
     e.preventDefault();
+    this.setState({ displayName: this.state.name})
     const result = this.props.contacts.filter((contact)=>contact.name === this.state.name)
     if(result.length > 0){
         this.NotificationMessage(); 
+        setTimeout(() => { this.NotificationMessage()}, 3000) 
         return
     }  
     (this.state.name !== '' && this.state.number !== '' )?(       
     this.props.onAddContact({...this.state})
-    ): this.errorMessage();
+    ): ( ()=> {this.errorMessage();
+    setTimeout(() => { this.errorMessage()}, 3000)  })();
+
     this.reset()
 };
   reset = () => {
@@ -41,12 +52,13 @@ class ContactForm extends Component {
     });
   };
 
-  NotificationMessage = () => {
+  errorMessage = () => {
     this.setState(prevState => ({ isShow: !prevState.isShow }));
   };
 
-  errorMessage = () => {
-    this.setState (prevState=>({isShow:!prevState.isOpen}))
+  NotificationMessage  = () => {
+    this.setState (prevState=>({isOpen:!prevState.isOpen}))
+    
 }
 
   render() {
@@ -55,18 +67,18 @@ class ContactForm extends Component {
     return (
       <>
         <CSSTransition
-          in={isShow}
-          timeout={500}
-          unmountOnExit
-          classNames={slideTransition}>
-          <Notification name={name} />
-        </CSSTransition>
-        <CSSTransition
           in={isOpen}
           timeout={500}
           unmountOnExit
           classNames={slideTransition}>
-          <Error name={name} />
+          <Notification name={this.state.displayName} />
+        </CSSTransition>
+        <CSSTransition
+          in={isShow}
+          timeout={500}
+          unmountOnExit
+          classNames={slideTransition}>
+          <Error/>
         </CSSTransition>
         <form className={styles.contactForm} onSubmit={this.submitHandler}>
           <label>
